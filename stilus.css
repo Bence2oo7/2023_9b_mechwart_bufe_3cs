@@ -1,0 +1,40 @@
+body{
+    background-image: url("kollazs5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  nav{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    height: 10%;
+    font-size: large;
+    background-color: white;
+    opacity: 0.8;
+
+  }
+  .image-container {
+    background-image: url("img_kollazs5.jpg");
+    background-size: cover;
+    position: relative;
+    height: 300px; 
+  }
+  
+  .text {
+    background-color: gray;
+    color: black;
+    font-size: 10vw;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px;
+    width: 70%;
+    text-align: center; 
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: screen;
+  }
+  iframe{
+    float: right;
+  }
