@@ -64,3 +64,24 @@ body{
   text-align: center;
   margin: 5px;
 }
+
+.navigacio {
+  width: 120px;
+  text-align: center;
+  margin-right: 20px;
+  border: 1px black solid;
+  border-radius: 40px;
+  transition: .4s ease-in-out;
+}
+
+.navigacio:hover {
+  transform: scale(1.15);
+  background: white;
+}
+
+@media only screen and (max-width: 991px) {
+  .navigacio{
+      margin-bottom: 10px;
+  }
+  
+}
