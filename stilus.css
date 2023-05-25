@@ -1,5 +1,7 @@
 .kapcsolat_felsorolas{
     list-style-type: circle;
+    -webkit-text-stroke: 0.005cm black;
+    text-shadow: 2px 2px black;
 }
 iframe{
     width: 1140px;
@@ -7,10 +9,19 @@ iframe{
     margin: 0 auto;
 }
 body{
-    background-image: url("hatter2.jpg");
+    background-image: url("hatter1.jpg");
     background-repeat:repeat;
     background-size: 20cm;
 }
-p, li, h1{
+p, h1{
     -webkit-text-stroke: 0.005cm black;
+    text-shadow: 2px 2px black;
 }
+.szoveg_hatter{
+    border: 5px solid;
+    background-image: url("fa_hatter.jpg");
+    border-radius: 20px;
+    margin-top: 3cm;
+    margin-bottom: 3cm;
+}
+
