@@ -1,8 +1,3 @@
-.kapcsolat_felsorolas{
-    list-style-type: circle;
-    -webkit-text-stroke: 0.005cm black;
-    text-shadow: 2px 2px black;
-}
 iframe{
     width: 1140px;
     height: 500px;
@@ -75,7 +70,7 @@ footer{
     list-style-type: decimal;
 }
 .receptek_hatter{
-    background-color: antiquewhite;
+    background-color: bisque;
     border: 2px solid black;
     border-radius: 20px;
     margin-top: 1cm;
@@ -84,4 +79,12 @@ footer{
 }
 .szoveg_stilus {
     font-family: sans-serif;
+}
+.kapcsolat_hatter{
+    background-color: bisque;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    padding: 10px;
 }
